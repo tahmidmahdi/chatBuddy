@@ -1,11 +1,12 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
+import Layout from '../../components/Layout';
 
 const Home = () => {
   return (
-    <View>
+    <Layout>
       <Text>Home</Text>
-    </View>
+    </Layout>
   );
 };
 
